@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./table.css";
 import rightChevron from "../../assets/right-chevron.png";
 import arrow from "../../assets/arrow.png";
+import { tableRowOptions } from "../../utils/tableUtils";
 
 const Table = ({ data, columns }) => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -122,10 +123,11 @@ const Table = ({ data, columns }) => {
             onChange={handlePageSizeChange}
             className="page-size-dropdown"
           >
-            <option value={10}>10</option>
-            <option value={20}>20</option>
-            <option value={50}>50</option>
-            <option value={100}>100</option>
+            {tableRowOptions.map((value) => (
+              <option key={`table_row_${value}`} value={value}>
+                {value}
+              </option>
+            ))}
           </select>
         </div>
 
