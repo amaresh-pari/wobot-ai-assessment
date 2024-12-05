@@ -1,8 +1,10 @@
+import redCircle from "../../assets/red-circle.png";
+import greenCircle from "../../assets/green-circle.png";
+import warningIcon from "../../assets/warning.png";
+
 export const NameCheckBox = ({ item, data, checked, handleRowCheck }) => {
   const imageSource =
-    data.current_status === "Offline"
-      ? "src/assets/red-circle.png"
-      : "src/assets/green-circle.png";
+    data.current_status === "Offline" ? redCircle : greenCircle;
   return (
     <div className="name-title-wrap">
       <input
@@ -14,9 +16,7 @@ export const NameCheckBox = ({ item, data, checked, handleRowCheck }) => {
       />
       <img src={imageSource} className="activity-icon" />
       <p>{item}</p>
-      {data.hasWarning && (
-        <img src="src/assets/warning.png" className="warning-icon" />
-      )}
+      {data.hasWarning && <img src={warningIcon} className="warning-icon" />}
     </div>
   );
 };

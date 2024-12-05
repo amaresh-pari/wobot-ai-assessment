@@ -1,3 +1,5 @@
+import notAllowed from "../../assets/not-allowed.png";
+
 export const Action = ({ checked, data, handleDelete }) => {
   const handleClick = () => {
     handleDelete(data.id);
@@ -9,5 +11,5 @@ export const Action = ({ checked, data, handleDelete }) => {
       </p>
     );
   }
-  return <img src="src/assets/not-allowed.png" className="action-icon" />;
+  return <img src={notAllowed} className="action-icon" />;
 };

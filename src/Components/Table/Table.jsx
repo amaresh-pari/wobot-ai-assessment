@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./table.css";
+import rightChevron from "../../assets/right-chevron.png";
+import arrow from "../../assets/arrow.png";
 
 const Table = ({ data, columns }) => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -136,14 +138,14 @@ const Table = ({ data, columns }) => {
             className={`pagination-icon left ${
               currentPage === 1 ? "disabled" : ""
             }`}
-            src="src/assets/right-chevron.png"
+            src={rightChevron}
             onClick={firstPage}
           />
           <img
             className={`pagination-icon left ${
               currentPage === 1 ? "disabled" : ""
             }`}
-            src="src/assets/arrow.png"
+            src={arrow}
             onClick={prevPage}
           />
         </div>
@@ -153,14 +155,14 @@ const Table = ({ data, columns }) => {
             className={`pagination-icon ${
               currentPage === totalPages ? "disabled" : ""
             }`}
-            src="src/assets/arrow.png"
+            src={arrow}
             onClick={nextPage}
           />
           <img
             className={`pagination-icon ${
               currentPage === totalPages ? "disabled" : ""
             }`}
-            src="src/assets/right-chevron.png"
+            src={rightChevron}
             onClick={lastPage}
           />
         </div>

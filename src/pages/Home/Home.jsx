@@ -7,6 +7,7 @@ import { Health } from "../../Components/Home/Health";
 import { Action } from "../../Components/Home/Action";
 import { NameCheckBox } from "../../Components/Home/NameCheckBox";
 import { NameTitleCheckBox } from "../../Components/Home/NameTitleCheckBox";
+import wobotImg from "../../assets/wobot.png";
 
 const Home = () => {
   const [search, setSearch] = useState("");
@@ -204,7 +205,7 @@ const Home = () => {
   return (
     <div className="main-container">
       <div className="img-wrap">
-        <img src="src/assets/wobot.png" className="home-icon" />
+        <img src={wobotImg} className="home-icon" />
       </div>
       <div className="content-wrap">
         <div>
