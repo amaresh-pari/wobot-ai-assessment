@@ -17,18 +17,18 @@ td {
   padding: 12px;
   border-bottom: 1px solid #f9f9f9;
   border-collapse: collapse;
-  color: #727272;
 }
 
 th {
   font-size: 14px;
-  color: #8c8a8a;
+  color: #7e7e7e;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 td {
   font-size: 14px;
+  color: #545454;
 }
 
 .pagination-wrap {
@@ -45,9 +45,9 @@ td {
 }
 
 .pagination-icon {
-  height: 14px;
-  width: 14px;
-  margin-right: 6px;
+  height: 12px;
+  width: 10px;
+  margin-right: 10px;
   cursor: pointer;
 }
 

@@ -25,14 +25,15 @@
 }
 
 .camera {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   margin-bottom: 10px;
+  color: #212121;
 }
 
 .desc {
   font-size: 14px;
-  color: #727272;
+  color: #545454;
 }
 
 .search {
@@ -86,14 +87,14 @@
 }
 
 .health-icon {
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
   margin-right: 5px;
 }
 
 .action-icon {
-  height: 20px;
-  width: 20px;
+  height: 14px;
+  width: 14px;
   margin-left: 10px;
 }
 
