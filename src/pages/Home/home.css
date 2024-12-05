@@ -1,0 +1,190 @@
+.home-icon {
+  width: 200px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 20px 20px;
+}
+
+.img-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.camera {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #727272;
+}
+
+.search {
+  border-radius: 5px;
+  border: 0.5px solid rgb(230, 230, 230);
+  background-color: #f3f3f4;
+  font-size: 14px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+.circle-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+.status {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #e3f5ef;
+  color: #1eb38c;
+}
+
+.inactive {
+  background-color: #f0f0f0;
+  color: #8f8f8f;
+  width: 45px;
+}
+
+.health-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.health-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.action-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.health-label {
+  margin-right: 10px;
+}
+
+.dropdown {
+  padding: 5px 10px 5px 10px;
+  border: 0.5px solid;
+  border-radius: 3px;
+  width: 200px;
+  color: #727272;
+}
+
+.filters-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.status-filter {
+  margin-left: 20px;
+  width: 150px;
+}
+
+.clear {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #727272;
+  margin-left: 20px;
+}
+
+.name-title-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.delete {
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-all {
+  align-self: flex-end;
+}
+
+.table-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffff;
+  margin-bottom: 2px;
+  padding: 5px 20px 5px 20px;
+}
+
+.warning-icon {
+  height: 14px;
+  width: 14px;
+  margin-left: 5px;
+}
+
+.activity-icon {
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 1px 5px 1px 5px;
+  margin-right: 15px;
+}
+
+.green-outline {
+  border: 2px solid #40b58e;
+}
+
+.yellow-outline {
+  border: 2px solid #ffa14e;
+}
